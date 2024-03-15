@@ -1,0 +1,22 @@
+Git process:
+
+Good commits tend to be small. Push a commit after adding a new feature, fixing a bug, reworking code to be readable.
+Usually 2-3 commits per hour.
+
+1) Make a change.
+2) View the diff.
+To view the diff in pycharm, navigate to view -> commit. This opens up the local changes section.
+You can right click the files there to open the diff views.
+3) Stage the change
+To stage the chaange use the command git add . to stage all the changes in your current directory. If you
+only want to stage specific ciles, you could listem them one by one, or ignore them using a .gitignore file.
+4) Commit the change.
+Use the command:
+git commit -m "Your message"
+with an identifying message to describe what was changed.
+5) Push the change to github.
+git push origin main
+git push pushes local changes to a remote location liek github.
+origin is a name that refers to your github repo for the project. It was configured automatically when you cloned the repo.
+Main is the default branch for your repo.
+
