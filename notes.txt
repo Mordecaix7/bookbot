@@ -8,7 +8,7 @@ Usually 2-3 commits per hour.
 To view the diff in pycharm, navigate to view -> commit. This opens up the local changes section.
 You can right click the files there to open the diff views.
 3) Stage the change
-To stage the chaange use the command git add . to stage all the changes in your current directory. If you
+To stage the change use the command git add . to stage all the changes in your current directory. If you
 only want to stage specific ciles, you could listem them one by one, or ignore them using a .gitignore file.
 4) Commit the change.
 Use the command:
