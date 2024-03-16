@@ -20,3 +20,9 @@ git push pushes local changes to a remote location liek github.
 origin is a name that refers to your github repo for the project. It was configured automatically when you cloned the repo.
 Main is the default branch for your repo.
 
+Regarding letter count solution. My approach was to generate an empty dictionary of all letters, iterate through text,
+If the letter is a letter (checked against a list of letters), increment its key.
+A more elegant and less memory intense solution is to iterate through, and generate the dictionary dynamically, checking
+if the letter exists in the dictionary, and if so, increment, else set its value as 1 with itself as a key.
+
+
